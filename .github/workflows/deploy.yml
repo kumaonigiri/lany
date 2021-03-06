@@ -17,6 +17,7 @@ jobs:
         server: engineer-dhn.sakura.ne.jp;
         username: engineer-dhn;
         password: i3A,LVKxM+WA;
+        port: 21;
 #         server: ${{ secrets.SERVER }}
 #         username: ${{ secrets.USERNAME }}
 #         password: ${{ secrets.PASSWORD }}
