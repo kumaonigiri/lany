@@ -13,8 +13,8 @@ jobs:
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
+      env:
         server: ${{ secrets.SERVER }}
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
-        port: 21 # todo replace with your web hosts ftps port
+        # port: 21 # todo replace with your web hosts ftps port
