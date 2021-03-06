@@ -1,0 +1,12 @@
+wp-admin
+wp-includes
+wp-*.php
+**/wp-content/languages
+**/wp-content/uploads
+**/wp-content/upgrade
+**/wp-content/plugins
+**/wp-content/themes
+!**/wp-content/themes/swell_child
+!**/wp-content/themes/*/index.php
+node_modules/
+.DS_Store
