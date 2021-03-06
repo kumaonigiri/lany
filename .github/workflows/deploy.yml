@@ -13,12 +13,4 @@ jobs:
     
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
-      with:
-        server: engineer-dhn.sakura.ne.jp;
-        username: engineer-dhn;
-        password: i3A,LVKxM+WA;
-        port: 21;
-#         server: ${{ secrets.SERVER }}
-#         username: ${{ secrets.USERNAME }}
-#         password: ${{ secrets.PASSWORD }}
-        # port: 21 # todo replace with your web hosts ftps port
+#       with:
